@@ -12,7 +12,7 @@
 
 | Part Ⅰ | Part Ⅱ | Part Ⅲ | Part Ⅳ | Part Ⅴ | Part Ⅵ |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------: |
-| [并发模型](https://github.com/linyacool/WebServer/blob/master/并发模型.md)|[连接的维护](https://github.com/linyacool/WebServer/blob/master/连接的维护.md)|[版本历史](https://github.com/linyacool/WebServer/blob/master/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2.md) | [测试及改进](https://github.com/linyacool/WebServer/blob/master/测试及改进.md) | [项目目的](https://github.com/linyacool/WebServer/blob/master/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md) | [面试问题](https://github.com/linyacool/WebServer/blob/master/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
+| [并发模型](%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md)|[连接的维护](%E8%BF%9E%E6%8E%A5%E7%9A%84%E7%BB%B4%E6%8A%A4.md)|[版本历史](%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2.md) | [测试及改进](%E6%B5%8B%E8%AF%95%E5%8F%8A%E6%94%B9%E8%BF%9B.md) | [项目目的](%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md) | [面试问题](https://github.com/linyacool/WebServer/blob/master/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
 
 ## Envoirment  
 * OS: Ubuntu 14.04
@@ -39,12 +39,12 @@
  
 ## Model
 
-并发模型为Reactor+非阻塞IO+线程池，新连接Round Robin分配，详细介绍请参考[并发模型](https://github.com/linyacool/WebServer/blob/master/并发模型.md)
-![并发模型](https://github.com/linyacool/WebServer/blob/master/datum/model.png)
+并发模型为Reactor+非阻塞IO+线程池，新连接Round Robin分配，详细介绍请参考[并发模型](%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md)
+![并发模型](datum/model.png)
 
 ## 代码统计
 
-![cloc](https://github.com/linyacool/WebServer/blob/master/datum/cloc.png)
+![cloc](datum/cloc.png)
 
 
 ## Others
